@@ -2,9 +2,9 @@
 
 namespace YuriiPasternak.Calculator.Models
 {
-    public static class CalculatorHandler<T>
+    public static class CalculatorHandler
     {
-        public static void Calculate(T a, T b, string operation, ICalculator<T> calc, out T? result)
+        public static void Calculate<T>(T a, T b, string operation, ICalculator<T> calc, out T? result)
         {
             result = operation switch
             {

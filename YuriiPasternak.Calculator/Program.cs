@@ -89,7 +89,7 @@ Choose another operator: (+ - *): ");
 
 // CALCULATING
 ICalculator<double> calculatorDouble = new CalculatorDouble();
-CalculatorHandler<double>.Calculate(a, b, inputOperation, calculatorDouble, out result);
+CalculatorHandler.Calculate(a, b, inputOperation, calculatorDouble, out result);
 
 // RESULT
 Console.WriteLine();
